@@ -1,0 +1,33 @@
+name: locker
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  biometric_storage: ^5.0.1
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_background_service: ^5.0.10
+  get: ^4.6.6
+  google_ml_kit: ^0.18.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: BYekan
+      fonts:
+        - asset: assets/fonts/BYEKAN+.ttf
+        - asset: assets/fonts/BYEKAN+ BOLD.ttf
+          weight: 700
