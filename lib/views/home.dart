@@ -25,6 +25,7 @@ class _HomeState extends State<Home> {
                 ),
                 width: double.infinity,
                 height: 20,
+                child: const Text('Phone Locker'),
               ),
             ],
           )),
